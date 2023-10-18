@@ -1,6 +1,7 @@
 // ignore_for_file: deprecated_member_use
 import 'package:flutter/material.dart';
-import 'CustomSnackBarContent.dart';
+import 'CustomSnackBarContent_Error.dart';
+import 'CustomSnackBarContent_Success.dart';
 
 class FlashMessageScreen extends StatelessWidget {
   const FlashMessageScreen({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class FlashMessageScreen extends StatelessWidget {
                 behavior: SnackBarBehavior.floating,
                 backgroundColor: Colors.transparent,
                 elevation: 0,
-                content: CustomSnackBarContent(
+                content: CustomSnackBarContentSuccess(
                   errorText: "That Email Address is already in use! Please try with a different one.",
                 ),
               ),

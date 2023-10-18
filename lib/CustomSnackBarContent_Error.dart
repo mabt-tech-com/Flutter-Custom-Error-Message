@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class CustomSnackBarContent extends StatelessWidget {
+class CustomSnackBarContentError extends StatelessWidget {
   final String errorText;
 
-  CustomSnackBarContent({Key? key, required this.errorText}) : super(key: key);
-
+  CustomSnackBarContentError({Key? key, required this.errorText}) : super(key: key);
 
 
   @override
