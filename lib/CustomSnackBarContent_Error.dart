@@ -1,6 +1,11 @@
+// ignore_for_file: deprecated_member_use
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+
+
 
 class CustomSnackBarContentError extends StatelessWidget {
   final String errorText;
@@ -36,13 +41,14 @@ class CustomSnackBarContentError extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Text(
+                  AutoSizeText(
                     errorText, // Use the errorText parameter here
                     style: GoogleFonts.poppins(
                       color: Colors.white,
-                      fontSize: 12,
+                      fontSize: 8,
                     ),
-                    maxLines: 2,
+                   // presetFontSizes: const [12, 10, 8],
+                    maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ],

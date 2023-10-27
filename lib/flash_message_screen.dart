@@ -86,3 +86,17 @@ class FlashMessageScreen extends StatelessWidget {
     );
   }
 }
+
+
+/*
+
+Green :
+Bold : #004E2F
+Light: #0B7141
+
+Yellow :
+Bold : #CD571D
+Light : #ED8D2B
+
+
+ */
