@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'The Flutter Way',
+      title: 'MABT-TECH',
       theme: ThemeData(
         brightness: Brightness.dark,
         elevatedButtonTheme: ElevatedButtonThemeData(
